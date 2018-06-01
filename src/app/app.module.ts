@@ -10,7 +10,7 @@ import { TabsModule } from './tabs/tabs.module';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, TabsModule ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, TestComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
